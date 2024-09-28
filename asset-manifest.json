@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zedrickporley/ws101-porley-navbar.git/static/css/main.a14e0ac7.css",
+    "main.js": "/zedrickporley/ws101-porley-navbar.git/static/js/main.d62d4ad3.js",
+    "static/js/453.3faecf1f.chunk.js": "/zedrickporley/ws101-porley-navbar.git/static/js/453.3faecf1f.chunk.js",
+    "index.html": "/zedrickporley/ws101-porley-navbar.git/index.html",
+    "main.a14e0ac7.css.map": "/zedrickporley/ws101-porley-navbar.git/static/css/main.a14e0ac7.css.map",
+    "main.d62d4ad3.js.map": "/zedrickporley/ws101-porley-navbar.git/static/js/main.d62d4ad3.js.map",
+    "453.3faecf1f.chunk.js.map": "/zedrickporley/ws101-porley-navbar.git/static/js/453.3faecf1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a14e0ac7.css",
+    "static/js/main.d62d4ad3.js"
+  ]
+}

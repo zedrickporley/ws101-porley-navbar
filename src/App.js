@@ -1,27 +1,30 @@
-import './App.css';
-
-import {Navbar,Nav,Container,} from 'react-bootstrap';
-// import {BrowserRouter,RouterProvider,} from "react-router-dom";
+import React from 'react';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { About } from './components/about';
 import { Contact } from './components/Contact';
 import { Home } from './components/Home';
-import React from 'react';
-import { BrowserRouter, Routes, Route,Link } from 'react-router-dom';
+import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar bg="dark" variant="dark">
-          <Container>
-            <Navbar.Brand href="#home">Ley.</Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/about">About</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
+        <nav className="navbar">
+          <div className="container">
+            <div className="navbar-brand">Ley.</div>
+            <ul className="nav-links">
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
         <Routes>
           <Route path="/" element={<Home />} />
